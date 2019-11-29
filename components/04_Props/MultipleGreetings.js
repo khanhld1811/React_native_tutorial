@@ -3,9 +3,7 @@ import {View,Text} from 'react-native';
 
 class Greeting extends Component{
     render(){
-        let  greetingString = `
-        Hello ${ this.props.name }.
-        `
+        let  greetingString = `Hello ${ this.props.name }.`
         return(
         <Text>{ greetingString }</Text>
         );
